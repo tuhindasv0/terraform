@@ -1,6 +1,8 @@
 #### Getting stated With terraform
 
 Create a terrafom file with main.tf (*copy_above_code*)
+
+
 **To initalize terraform**
 
     terraform init
