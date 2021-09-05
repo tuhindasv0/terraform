@@ -26,3 +26,9 @@ To switch back to default workspace,
 *(To confirm workspace use **terraform workspace list**)*
 
 As we havn't deployed anything in default workspace **terraform state list** will show *no state file found* Once we deploy the resources in default workspace we can see  **terraform.tfstate** created inside root directory. And if we run **terraform state list** we can see similar set of resources being tracked by terraform.
+
+To Destroy all the resources
+    
+    terraform destroy --auto-approve
+
+Also swictch to other workspace and use above command to destroy the resources.
