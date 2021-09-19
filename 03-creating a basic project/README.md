@@ -19,6 +19,6 @@ Create a **modules** folder, Inside this folder create another folder **vpc**. I
     
 **To Deploy resources** 
 
-    terraform apply --auto-approve -var main_region=us-west-2
+    terraform apply --auto-approve -var <v_a_r>
 
 *If we don't provide var, template will use default value for deployment*
